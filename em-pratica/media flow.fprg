@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ryzen 5 1600af"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-19 10:27:29 "/>
+        <attribute name="created" value="Unl6ZW4gNSAxNjAwYWY7REVTS1RPUC0xUjVKTE00OzIwMjEtMTAtMTk7IjEwOjEwOjM5ICI7MzI4Mg=="/>
+        <attribute name="edited" value="Unl6ZW4gNSAxNjAwYWY7REVTS1RPUC0xUjVKTE00OzIwMjEtMTAtMTk7IjEwOjI3OjI5ICI7MTszMzk3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, media, total" type="Real" array="False" size=""/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <assign variable="total" expression="(nota1+nota2+nota3+nota4)"/>
+            <output expression="total" newline="True"/>
+            <output expression="&quot;Sua m&#233;dia foi: &quot; &amp; media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

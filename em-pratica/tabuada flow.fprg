@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ryzen 5 1600af"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-19 11:25:05 "/>
+        <attribute name="created" value="Unl6ZW4gNSAxNjAwYWY7REVTS1RPUC0xUjVKTE00OzIwMjEtMTAtMTk7IjExOjE1OjQ4ICI7MzI4OA=="/>
+        <attribute name="edited" value="Unl6ZW4gNSAxNjAwYWY7REVTS1RPUC0xUjVKTE00OzIwMjEtMTAtMTk7IjExOjI1OjA1ICI7MTszMzkw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, limite, resultado, multiplicador" type="Integer" array="False" size=""/>
+            <assign variable="numero" expression="9"/>
+            <assign variable="limite" expression="10"/>
+            <assign variable="multiplicador" expression="1"/>
+            <while expression="multiplicador&lt;=limite">
+                <assign variable="resultado" expression="numero*multiplicador"/>
+                <output expression="numero &amp; &quot; x &quot; &amp; multiplicador &amp; &quot; = &quot; &amp; resultado" newline="True"/>
+                <assign variable="multiplicador" expression="multiplicador+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
